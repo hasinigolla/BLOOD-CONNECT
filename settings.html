@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Blood Connect - Settings</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #fff7f7;
+      margin: 0;
+      padding: 20px;
+    }
+
+    .settings-container {
+      max-width: 700px;
+      margin: auto;
+      background: #fff;
+      padding: 30px;
+      border-radius: 10px;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    }
+
+    h2 {
+      text-align: center;
+      color: #b30000;
+    }
+
+    .settings-section {
+      margin-bottom: 30px;
+    }
+
+    .settings-section h3 {
+      color: #b30000;
+      margin-bottom: 10px;
+    }
+
+    label {
+      display: block;
+      margin: 10px 0;
+    }
+
+    input[type="text"],
+    input[type="email"],
+    input[type="tel"],
+    input[type="date"],
+    select {
+      width: 100%;
+      padding: 8px;
+      margin-top: 5px;
+      border-radius: 6px;
+      border: 1px solid #ccc;
+    }
+
+    input[type="checkbox"] {
+      margin-right: 10px;
+    }
+
+    button, a.button-link {
+      margin-top: 10px;
+      padding: 10px 15px;
+      background-color: #b30000;
+      color: white;
+      border: none;
+      border-radius: 6px;
+      cursor: pointer;
+      text-decoration: none;
+      display: inline-block;
+    }
+
+    button:hover, .button-link:hover {
+      background-color: #a00000;
+    }
+
+    .danger {
+      background-color: #f44336;
+    }
+
+    .gray {
+      background-color: #777;
+    }
+  </style>
+</head>
+<body>
+  <div class="settings-container">
+    <h2>Settings - Blood Connect</h2>
+
+    <!-- Theme -->
+    <section class="settings-section">
+      <h3>Theme</h3>
+      <label>Select Theme:
+        <select>
+          <option>Light</option>
+          <option>Dark</option>
+        </select>
+      </label>
+    </section>
+
+    <!-- Notifications -->
+    <section class="settings-section">
+      <h3>Notifications</h3>
+      <label><input type="checkbox" checked> Emergency Alerts</label>
+      <label><input type="checkbox" checked> New Donation Opportunities</label>
+      <label><input type="checkbox"> Status Updates</label>
+      <label><input type="checkbox"> Upcoming Events</label>
+    </section>
+
+    <!-- Account Actions -->
+    <section class="settings-section">
+      <h3>Account</h3>
+      <a href="profile.html" class="button-link">Change Password</a>
+    </section>
+
+    <!-- Contact Us -->
+    <section class="settings-section">
+      <h3>Contact Us</h3>
+      <label>Email: <input type="email" placeholder="your-email@example.com"></label>
+      <label>Message:
+        <textarea rows="4" style="width:100%; padding: 8px; border-radius: 6px; border: 1px solid #ccc;" placeholder="Type your message here..."></textarea>
+      </label>
+      <button>Send Message</button>
+    </section>
+
+    <!-- Logout & Delete -->
+    <section class="settings-section">
+      <button class="danger">Delete Account</button>
+      <button class="gray">Logout</button>
+    </section>
+  </div>
+</body>
+</html>

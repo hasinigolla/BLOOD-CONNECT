@@ -58,62 +58,6 @@ BloodConnect/
 
 ---
 
-## ⚙️ Installation
-
-### 1. Clone the repository
-
-```bash
-git clone https://github.com/your-username/BloodConnect.git
-```
-
-### 2. Navigate to the project
-
-```bash
-cd BloodConnect
-```
-
-### 3. Install dependencies
-
-```bash
-npm install
-```
-
-### 4. Configure Environment Variables
-
-Create a `.env` file and add:
-
-```env
-PORT=5000
-MONGODB_URI=your_mongodb_connection_string
-```
-
-### 5. Start the server
-
-```bash
-npm start
-```
-
-The application will run on:
-
-```
-http://localhost:5000
-```
-
----
-
-## 📸 Screenshots
-
-> Add screenshots of the following pages:
-
-- Home Page
-- Login Page
-- Donor Registration
-- Blood Search
-- Emergency Request
-- Dashboard
-
----
-
 ## 📖 Workflow
 
 1. User registers or logs in.
@@ -157,10 +101,7 @@ This project helped in gaining practical experience with:
 **Golla Venkata Durga Hasini**
 
 - GitHub: https://github.com/hasinigolla
-- LinkedIn: *(Add your LinkedIn profile)*
+- LinkedIn: *(https://www.linkedin.com/in/hasini-golla-829094301)*
 
 ---
 
-## ⭐ Support
-
-If you found this project useful, consider giving it a ⭐ on GitHub.

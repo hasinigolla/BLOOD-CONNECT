@@ -65,50 +65,6 @@ BloodConnect/
 ├── package.json
 └── README.md
 ```
-
----
-
-# ⚙️ Installation
-
-### Clone Repository
-
-```bash
-git clone https://github.com/hasinigolla/BloodConnect.git
-```
-
-### Navigate to the Project
-
-```bash
-cd BloodConnect
-```
-
-### Install Dependencies
-
-```bash
-npm install
-```
-
-### Configure Environment Variables
-
-Create a `.env` file:
-
-```env
-PORT=5000
-MONGODB_URI=your_mongodb_connection_string
-```
-
-### Run the Application
-
-```bash
-npm start
-```
-
-The application will be available at:
-
-```text
-http://localhost:5000
-```
-
 ---
 
 # 🔄 Workflow
@@ -133,20 +89,6 @@ Donor Connects with Recipient
 ```
 
 ---
-
-# 📸 Demo
-
-<p align="center">
-
-| Home Page | Donor Registration |
-|------------|--------------------|
-| Add Screenshot | Add Screenshot |
-
-| Blood Search | Emergency Request |
-|---------------|-------------------|
-| Add Screenshot | Add Screenshot |
-
-</p>
 
 ---
 
@@ -179,9 +121,9 @@ Donor Connects with Recipient
 
 **Golla Venkata Durga Hasini**
 
-📧 Email: your-email@example.com
+📧 Email: hasinigolla456@gmail.com
 
-💼 LinkedIn: https://linkedin.com/in/your-profile
+💼 LinkedIn: https://www.linkedin.com/in/hasini-golla-829094301
 
 🌐 GitHub: https://github.com/hasinigolla
 
